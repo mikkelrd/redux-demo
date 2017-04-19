@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkList {
+  display: flex;
+}
+
+.linkList__item {
+  margin-left: 15px;
+}
+
+.list {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.list__item {
+  margin: 10px auto;
+}
+
+.detail {
+  margin: 30px;
+}
